@@ -81,3 +81,30 @@ main {
     width: 100%;
     border-radius: 5px;
 }
+
+.profile-picture {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%; /* for circles, remove for rectangles */
+    background-color: #ccc; /* Placeholder color */
+}
+
+.user-info {
+    flex-grow: 1; /* Allows the user info to grow and take remaining space */
+}
+
+.user-info h2 {
+    margin-top: 0; /* Remove default margin */
+}
+
+.user-info p {
+    margin-top: 5px;
+    color: #666666;
+}
+
+.picture {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #ccc; /* Placeholder color */
+    margin-bottom: 10px;
+}
