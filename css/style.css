@@ -19,21 +19,26 @@ header {
 }
 
 .profile-info {
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .profile-info img {
     width: 100px;
+    height: 100px; /* Adjust height as needed */
     border-radius: 50%;
+    margin-right: 20px;
 }
 
-.profile-info h2 {
-    margin-top: 10px;
-    font-size: 1.5rem;
-    color: #333333;
+.user-info {
+    flex-grow: 1; /* Allows the user info to grow and take remaining space */
 }
 
-.profile-info p {
+.user-info h2 {
+    margin-top: 0; /* Remove default margin */
+}
+
+.user-info p {
     margin-top: 5px;
     color: #666666;
 }
